@@ -1,0 +1,77 @@
+:root {
+      --cc-purple: #370B55;
+      --cc-light-blue: #e6f0ff;
+      --cc-gray: #f4f6f9;
+      --cc-dark: #a74dce;
+      --cc-accent: #00b5e2;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: var(--cc-gray);
+    }
+
+    .main-content {
+      padding: 2rem;
+    }
+
+    .header {
+      background: var(--cc-purple);
+      color: white;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 8px;
+    }
+
+    .header h1 {
+      font-size: 1.75rem;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .card {
+      flex: 1 1 240px;
+      background: white;
+      border-radius: 12px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      margin-bottom: 10px;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.25rem;
+      color: var(--cc-dark);
+    }
+
+    .card p {
+      color: #6b7280;
+    }
+
+    #sheetFrame::-webkit-scrollbar {
+        display: none;
+    }
+    div#doc-title {
+    display: none;
+}
