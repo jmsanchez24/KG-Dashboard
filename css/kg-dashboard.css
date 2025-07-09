@@ -73,5 +73,9 @@
         display: none;
     }
     div#doc-title {
-    display: none;
-}
+      display: none;
+    }
+    .card.small {
+      flex: none;
+      height: 150px;
+    }
